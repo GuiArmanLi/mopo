@@ -19,63 +19,64 @@
       </nav>
 
       <section>
-        <div>
-          <input type="radio" name="theme" />
-          <div>
-            <button><i></i></button>
-            <select name="language"></select>
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+        <div class="language-selector">
+          <button class="language-selected">
+            <span>BR</span>
+            <span class="arrow-down"></span>
+          </button>
+          <div class="language-options">
+            <a href="#" class="language-option" data-lang="pt-br">
+              <span>PT-BR</span>
+            </a>
+            <a href="#" class="language-option" data-lang="en-us">
+              <span>EN-US</span>
+            </a>
           </div>
         </div>
 
         <nav>
-          <a class="icon" href="store.html" rel="internal"><i></i></a>
-          <a class="icon" href="profile.html" rel="internal"><i></i></a>
+          <a class="icon" href="store.html" rel="internal"><i>Store</i></a>
+          <a class="icon" href="profile.html" rel="internal"><i>Profile</i></a>
         </nav>
       </section>
     </header>
 
     <main>
-      <form action="" method="post">
-        <label for="username">Username</label>
-        <input
-          type="text"
-          id="username"
-          name="username"
-          placeholder="Digite seu nome"
-          required
-        />
-
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="seuemail@exemplo.com"
-          minlength="10"
-          maxlength="50"
-          autocomplete="email"
-          required
-        />
-
-        <label for="password">Password</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="*******"
-          minlength="8"
-          maxlength="20"
-          autocomplete="current-password"
-          required
-        />
-
-        <button class="yellow-button" type="submit">Sign In</button>
-      </form>
-
-      <nav class="signin-link">
-        <a href="./signup.html" rel="internal">SignUp</a>
-        <a href="./reset-password.html" rel="internal">Forget Password?</a>
-      </nav>
+      <section>
+        <form action="" method="post">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="seuemail@exemplo.com"
+            minlength="10"
+            maxlength="50"
+            autocomplete="email"
+            required
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="*******"
+            minlength="8"
+            maxlength="20"
+            autocomplete="current-password"
+            required
+          />
+          <button class="yellow-button" type="submit">Sign In</button>
+        </form>
+        <nav>
+          <a href="./signup.html" rel="internal">SignUp</a>
+          <a href="./reset-password.html" rel="internal">Forget Password?</a>
+        </nav>
+      </section>
 
       <picture>
         <img src="./assets/Imagem.png" alt="Imagem ilustrativa" />
