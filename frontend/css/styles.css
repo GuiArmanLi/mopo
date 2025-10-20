@@ -1,52 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", Arial, sans-serif;
-}
-
-body {
-  background-color: #f7f7f7;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-/* ===== HEADER ===== */
-header {
-  background-color: orange;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 80px;
-}
-
 .icone-header {
-  width: 180px; /* tamanho do ícone */
+  width: 180px;
   height: 100px;
-  border-radius: 50%; /* deixa o ícone redondo (opcional) */
-  object-fit: cover; /* garante que a imagem se ajuste bem */
-  cursor: pointer; /* muda o cursor quando passa o mouse */
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
   transition: 0.3s;
 
-  margin-left: 200px; /* aumenta o espaço entre o menu e o ícone */
+  margin-left: 200px;
 }
 
 .icone-header:hover {
-  transform: scale(1.1); /* leve aumento ao passar o mouse */
-}
-
-.cabeçalho {
-  display: flex;
-  gap: 120px;
-  margin-left: 300px; /* aumenta o espaço entre o menu e o ícone */
-}
-
-header h1 {
-  color: #000;
-  font-size: 60px;
-  font-weight: bold;
+  transform: scale(1.1);
 }
 
 .menu {
@@ -69,7 +33,6 @@ header h1 {
   background-color: #ffe5b4;
 }
 
-/* ===== CONTEÚDO PRINCIPAL ===== */
 .main-content {
   display: flex;
   align-items: flex-start;
@@ -78,89 +41,10 @@ header h1 {
   padding: 60px 100px;
 }
 
-.image-container img {
-  width: 500px;
-  height: auto;
-}
-
-.text-container {
-  max-width: 650px;
-}
-
-.text-container h2 {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 25px;
-}
-
-.text-container p {
-  text-align: justify;
-  margin-bottom: 18px;
-  line-height: 1.7;
-  font-size: 1.05rem;
-}
-
-/* ===== IMAGE ===== */
 .image-section img {
   width: 550px;
   max-width: 100%;
   border-radius: 20px;
-}
-
-/* ===== RODAPÉ ===== */
-footer {
-  background-color: #5b774a;
-  color: white;
-  padding: 18px 0;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  bottom: 0;
-  margin-top: auto; /* empurra o rodapé para o final */
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: 1rem;
-}
-
-.footer-container a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-container a:hover {
-  text-decoration: underline;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background-color: orange;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 50px;
-}
-
-h1 {
-  color: black;
-  font-size: 60px;
-}
-
-.minha-imagem {
-  position: absolute;
-  right: 200px;
-  bottom: 40px;
 }
 
 .dados {
@@ -186,11 +70,6 @@ h1 {
   transition: 0.3s;
 }
 
-.cabeçalho {
-  display: flex;
-  align-items: normal;
-}
-
 .bts {
   width: 100px;
   height: 50px;
@@ -198,17 +77,6 @@ h1 {
   margin-right: 90px;
   border-radius: 20px;
   width: 150px;
-}
-
-.signin-link {
-  margin-top: 5px;
-  margin-left: 0px;
-}
-
-.signin-link a {
-  color: #0073e6;
-  text-decoration: none;
-  margin-left: 130px;
 }
 
 .checkbox {
@@ -229,13 +97,6 @@ h1 {
   font-size: 0.8rem;
   margin-top: 10px;
   color: #333;
-  margin-left: 130px;
-  text-align: justify;
-}
-
-.terms a {
-  color: #0073e6;
-  text-decoration: none;
   margin-left: 130px;
   text-align: justify;
 }
