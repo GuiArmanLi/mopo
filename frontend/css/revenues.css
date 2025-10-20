@@ -62,3 +62,19 @@
 .card h4 {
   color: var(--yellow);
 }
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  padding: 1rem 5rem;
+
+  background-color: var(--yellow);
+}
+
+.footer-links nav {
+  flex: 1;
+}
+
+.footer-links a {
+  color: var(--black);
+}
