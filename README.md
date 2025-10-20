@@ -1,4 +1,4 @@
-# mopo
+# MOPO
 Mercado Online de Produtos Organicos
 
 Integrantes:
