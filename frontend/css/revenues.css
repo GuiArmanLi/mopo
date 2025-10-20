@@ -4,10 +4,10 @@
 }
 
 .categories nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .bi-chevron-left {
@@ -25,19 +25,40 @@
 .category img {
   width: 100px;
   aspect-ratio: 1;
-  border-radius: 50px;
+  border-radius: var(--radius);
   overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  gap: 5rem;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 
-  max-width: 400px;
+  max-width: 250px;
   aspect-ratio: 2/3;
+
+  padding: 1rem;
+  border: 1px solid var(--gray);
+  border-radius: var(--radius);
 }
 
 .card img {
-  max-width: 400px;
+  max-width: 250px;
+  padding: 0 1rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.card h4 {
+  color: var(--yellow);
 }

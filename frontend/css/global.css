@@ -81,6 +81,8 @@ footer a {
 
 .yellow-button {
   background-color: var(--yellow);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
   border: none;
 }
 
