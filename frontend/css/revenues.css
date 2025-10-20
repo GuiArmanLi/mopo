@@ -1,0 +1,43 @@
+.categories {
+  position: relative;
+  margin: 3rem;
+}
+
+.categories nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.bi-chevron-left {
+  position: absolute;
+  left: 0;
+  top: 40%;
+}
+
+.bi-chevron-right {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+.category img {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 400px;
+  aspect-ratio: 2/3;
+}
+
+.card img {
+  max-width: 400px;
+}
