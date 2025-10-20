@@ -1,64 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/global.css">
-</head>
-<body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/global.css" />
+  </head>
+
+  <body>
     <header>
-        <h1>MOPO</h1>
-        <div class="cabeçalho">
-            <button class="bts">Home</button>
-           
-            <button class="bts">Revenues</button>
-            
-            <button class="bts">About Us</button>
-            
+      <h1>MOPO</h1>
+
+      <nav>
+        <a class="item" href="./index.html" rel="internal">Home</a>
+        <a class="item" href="revenues.html" rel="internal">Revenues</a>
+        <a class="item" href="about.html" rel="internal">About Us</a>
+      </nav>
+
+      <section>
+        <div>
+          <input type="radio" name="theme" />
+          <div>
+            <button><i></i></button>
+            <select name="language"></select>
+          </div>
         </div>
-            <form action="#" method="post"></form>
+
+        <nav>
+          <a class="icon" href="store.html" rel="internal"><i></i></a>
+          <a class="icon" href="profile.html" rel="internal"><i></i></a>
+        </nav>
+      </section>
     </header>
-    
-    <div class="dados">
-        <br><br>
-            <label for="username">Username:</label><br>
-            <input type="text" name="username" placeholder="Digite seu nome" required> 
-        <br><br>
 
-            <label for="email">Email:</label><br>
-            <input type="email" name="email"
-            placeholder="seuemail@exemplo.com">
-        <br><br>
+    <main>
+      <form action="" method="post">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Digite seu nome"
+          required
+        />
 
-            <label for="password">Password:</label><br>
-            <input type="text" name="password" placeholder="xxxxxxxx" required>
-        <br><br>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="seuemail@exemplo.com"
+          minlength="10"
+          maxlength="50"
+          autocomplete="email"
+          required
+        />
 
-    
-        <button class="sub" type="submit">Sign Up</button>
-    </div>
-    
-    <div class="signin-link">
-        <a href="#">SignIn</a>
-    </div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="*******"
+          minlength="8"
+          maxlength="20"
+          autocomplete="current-password"
+          required
+        />
 
-    <div class="checkbox">
-        <input type="checkbox" id="updates">
-        <label for="updates">Receive occasional product updates and announcements</label>
-    </div>
+        <button class="yellow-button" type="submit">Sign In</button>
+      </form>
 
-    <p class="terms">
-        By creating an account, you agree to the <a href="#">Terms of Service</a>.<br>
-        For more information about MOPO’s privacy practices, see <br>the <a href="#">MOPO Privacy Statement</a>.
-        We’ll occasionally send you<br> account-related emails.
-    </p>
+      <nav class="signin-link">
+        <a href="./signup.html" rel="internal">SignUp</a>
+        <a href="./reset-password.html" rel="internal">Forget Password?</a>
+      </nav>
 
-    <img src="imagens/Imagem.png" alt="Imagem ilustrativa" width="600px" height="600px" class="minha-imagem">
-    
-    </form>
+      <picture>
+        <img src="./assets/Imagem.png" alt="Imagem ilustrativa" />
+      </picture>
+    </main>
 
-</body>
+    <footer>
+      <div><p>Mercado Online de Produtos Orgânicos</p></div>
+      <div><p>Copyright © All rights reserved.</p></div>
+      <div><a href="policies.html">Privacy Policies</a></div>
+    </footer>
+  </body>
 </html>
-        
