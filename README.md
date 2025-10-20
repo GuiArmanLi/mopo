@@ -2,8 +2,11 @@
 Mercado Online de Produtos Organicos
 
 Integrantes:
+
 Giovanna Evangelista
+
 Guilherme Santana
+
 José Mauricio
 
 Descrição:
