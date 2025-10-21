@@ -1,0 +1,18 @@
+main {
+  padding: 5rem;
+}
+
+.history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history picture,
+.history div {
+  flex: 1;
+}
+
+img {
+  max-width: 400px;
+}

@@ -26,6 +26,17 @@ body {
   background-color: var(--ice);
 }
 
+body.dark-mode {
+  --yellow: #e49b3a;
+  --green: #7ca561;
+  --white: #2c2c2c;
+  --black: #f0f0f0;
+  --gray: #7a7a7a;
+  --ice: #1e1e1e;
+}
+
+/* Adicione transições suaves para a troca de tema */
+
 header {
   display: flex;
   align-items: center;
@@ -69,10 +80,6 @@ footer {
   padding: 1rem;
   background-color: var(--green);
   color: var(--white);
-}
-
-main {
-  flex: 1;
 }
 
 footer a {
