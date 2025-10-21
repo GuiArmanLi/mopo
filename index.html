@@ -4,18 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MOPO - Mercado Online de Produtos Organicos</title>
-    <link rel="stylesheet" href="./frontend/css/index.css" />
-    <link rel="stylesheet" href="./frontend/css/global.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/global.css" />
   </head>
   <body>
     <header>
       <h1>MOPO</h1>
       <nav>
         <a class="item" href="./index.html" rel="internal">Home</a>
-        <a class="item" href="./frontend/revenues.html" rel="internal"
-          >Revenues</a
-        >
-        <a class="item" href="./frontend/about.html" rel="internal">About Us</a>
+        <a class="item" href="./pages/revenues.html" rel="internal">Revenues</a>
+        <a class="item" href="./pages/about.html" rel="internal">About Us</a>
       </nav>
 
       <section>
@@ -40,7 +38,9 @@
 
         <nav>
           <a class="icon" href="#" rel="internal"><i>Store</i></a>
-          <a class="icon" href="#" rel="internal"><i>Profile</i></a>
+          <a class="icon" href="./pages/signin.html" rel="internal"
+            ><i>Profile</i></a
+          >
         </nav>
       </section>
     </header>
@@ -58,101 +58,69 @@
     </nav>
     <main>
       <div>
-        <img
-          src="./frontend/assets/img_topo_home.png"
-          class="img_home"
-          alt="Imagem da home"
-        />
+        <img src="./assets/banner.png" class="img_home" alt="Imagem da home" />
       </div>
       <h2 id="mais_vendidos">MAIS VENDIDOS!</h2>
 
       <div class="colunas_produtos">
         <div class="produto">
-          <img
-            class="img_produto"
-            src="./frontend/assets/amendoim.png"
-            alt="Imagem 1"
-          />
+          <img class="img_produto" src="./assets/amendoim.png" alt="Imagem 1" />
           <p>Amendoim s/pele s/sal - 500g</p>
           <p><del>R$12,00</del> R$9,25</p>
-          <a class="see_more" href="">See more</a>
+          <a class="see_more" href="#">See more</a>
         </div>
         <div class="produto">
           <img
             class="img_produto"
-            src="./frontend/assets/castanha_para.png"
+            src="./assets/castanha_para.png"
             alt="Imagem 2"
           />
           <p>Castanha do pará - 100g</p>
           <p><del>R$20,00</del> R$18,50</p>
-          <a class="see_more" href="">See more</a>
+          <a class="see_more" href="#">See more</a>
         </div>
         <div class="produto">
-          <img
-            class="img_produto"
-            src="./frontend/assets/aveia.png"
-            alt="Imagem 3"
-          />
+          <img class="img_produto" src="./assets/aveia.png" alt="Imagem 3" />
           <p>Aveia em flocos - 500g</p>
           <p><del>R$5,90</del> R$4,50</p>
-          <a class="see_more" href="">See more</a>
+          <a class="see_more" href="#">See more</a>
         </div>
         <div class="produto">
-          <img
-            class="img_produto"
-            src="./frontend/assets/tamara.png"
-            alt="Imagem 4"
-          />
+          <img class="img_produto" src="./assets/tamara.png" alt="Imagem 4" />
           <p>Tâmaras s/caroço - 100g</p>
           <p><del>R$4,50</del> R$3,00</p>
-          <a class="see_more" href="">See more</a>
+          <a class="see_more" href="#">See more</a>
         </div>
         <div class="produto">
-          <img
-            class="img_produto"
-            src="./frontend/assets/amendoim.png"
-            alt="Imagem 1"
-          />
+          <img class="img_produto" src="./assets/amendoim.png" alt="Imagem 1" />
           <p>Amendoim s/pele s/sal - 500g</p>
           <p><del>R$12,00</del> R$9,25</p>
-          <a class="see_more" href="">See more</a>
+          <a class="see_more" href="#">See more</a>
         </div>
         <div class="produto">
-          <img
-            class="img_produto"
-            src="./frontend/assets/amendoim.png"
-            alt="Imagem 2"
-          />
+          <img class="img_produto" src="./assets/amendoim.png" alt="Imagem 2" />
           <p>Amendoim s/pele s/sal - 500g</p>
           <p><del>R$12,00</del> R$9,25</p>
-          <a class="see_more" href="">See more</a>
+          <a class="see_more" href="#">See more</a>
         </div>
         <div class="produto">
-          <img
-            class="img_produto"
-            src="./frontend/assets/amendoim.png"
-            alt="Imagem 3"
-          />
+          <img class="img_produto" src="./assets/amendoim.png" alt="Imagem 3" />
           <p>Amendoim s/pele s/sal - 500g</p>
           <p><del>R$12,00</del> R$9,25</p>
-          <a class="see_more" href="">See more</a>
+          <a class="see_more" href="#">See more</a>
         </div>
         <div class="produto">
-          <img
-            class="img_produto"
-            src="./frontend/assets/amendoim.png"
-            alt="Imagem 4"
-          />
+          <img class="img_produto" src="./assets/amendoim.png" alt="Imagem 4" />
           <p>Amendoim s/pele s/sal - 500g</p>
           <p><del>R$12,00</del> R$9,25</p>
-          <a class="see_more" href="">See more</a>
+          <a class="see_more" href="#">See more</a>
         </div>
       </div>
     </main>
     <footer>
       <p>Mercado Online de Produtos Orgânicos</p>
       <p>Copyright © All rights reserved.</p>
-      <p><a href="./frontend/policies.html">Privacy Policies</a></p>
+      <p><a href="./pages/policies.html">Privacy Policies</a></p>
     </footer>
   </body>
 </html>
