@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--green);
+
+  padding: 1rem;
+  a {
+    color: var(--white);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+}
