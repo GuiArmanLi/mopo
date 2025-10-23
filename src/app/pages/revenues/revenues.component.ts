@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterLink } from "@angular/router";
+import { FooterNavigationComponent } from '../../shared/footer-navigation/footer-navigation.component';
 
 @Component({
   selector: 'app-revenues',
-  imports: [RouterLink],
+  imports: [FooterNavigationComponent],
   templateUrl: './revenues.component.html',
   styleUrl: './revenues.component.scss',
   standalone: true

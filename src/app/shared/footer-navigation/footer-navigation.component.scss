@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  align-items: center;
+  padding: 1rem 5rem;
+
+  background-color: var(--yellow);
+
+  nav {
+    flex: 1;
+  }
+
+  a {
+    color: var(--black);
+  }
+}

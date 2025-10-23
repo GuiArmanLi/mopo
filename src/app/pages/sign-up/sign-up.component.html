@@ -1,61 +1,59 @@
-    <main>
-      <section>
-        <form action="" method="post">
-          <label for="username">Username</label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            placeholder="Your name"
-            minlength="3"
-            maxlength="50"
-            autocomplete="username"
-            required
-          />
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="seuemail@exemplo.com"
-            minlength="10"
-            maxlength="50"
-            autocomplete="email"
-            required
-          />
-          <label for="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="*******"
-            minlength="8"
-            maxlength="20"
-            autocomplete="current-password"
-            required
-          />
-          <button class="yellow-button" type="submit">Sign Up</button>
+<section>
+  <form action="" method="post">
+    <label for="username">Username</label>
+    <input
+      type="text"
+      id="username"
+      name="username"
+      placeholder="Your name"
+      minlength="3"
+      maxlength="50"
+      autocomplete="username"
+      required
+    />
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="seuemail@exemplo.com"
+      minlength="10"
+      maxlength="50"
+      autocomplete="email"
+      required
+    />
+    <label for="password">Password</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="*******"
+      minlength="8"
+      maxlength="20"
+      autocomplete="current-password"
+      required
+    />
+    <button class="yellow-button" type="submit">Sign Up</button>
 
-          <input type="checkbox" id="updates" />
-          <label for="updates"
-            >Receive occasional product updates and announcements</label
-          >
+    <input type="checkbox" id="updates" />
+    <label for="updates"
+      >Receive occasional product updates and announcements</label
+    >
 
-          <p>
-            By creating an account, you agree to the
-            <a routerLink="/policies">Terms of Service</a>. For more information
-            about MOPO’s privacy practices, see the
-            <a routerLink="/policies">MOPO Privacy Statement</a>. We’ll
-            occasionally send you account-related emails.
-          </p>
-        </form>
+    <p>
+      By creating an account, you agree to the
+      <a routerLink="/policies">Terms of Service</a>. For more information about
+      MOPO’s privacy practices, see the
+      <a routerLink="/policies">MOPO Privacy Statement</a>. We’ll occasionally
+      send you account-related emails.
+    </p>
+  </form>
 
-        <nav>
-          <a routerLink="/signin" rel="internal">SignIn</a>
-        </nav>
-      </section>
+  <nav>
+    <a routerLink="/signin" rel="internal">SignIn</a>
+  </nav>
+</section>
 
-      <picture>
-        <img src="../assets/fazendeira.png" alt="Imagem ilustrativa" />
-      </picture>
-    </main>
+<picture>
+  <img src="../assets/fazendeira.png" alt="Imagem ilustrativa" />
+</picture>
