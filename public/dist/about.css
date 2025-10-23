@@ -1,18 +1,17 @@
 main {
   padding: 5rem;
 }
-
-.history {
+main .history {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.history picture,
-.history div {
+main .history picture,
+main .history div {
   flex: 1;
 }
-
-img {
+main img {
   max-width: 400px;
 }
+
+/*# sourceMappingURL=about.css.map */

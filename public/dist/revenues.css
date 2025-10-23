@@ -2,31 +2,27 @@
   position: relative;
   margin: 3rem;
 }
-
+.categories .bi-chevron-left {
+  position: absolute;
+  left: 0;
+  top: 40%;
+}
 .categories nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
 }
-
-.bi-chevron-left {
-  position: absolute;
-  left: 0;
-  top: 40%;
-}
-
-.bi-chevron-right {
-  position: absolute;
-  right: 0;
-  top: 40%;
-}
-
-.category img {
+.categories nav .category img {
   width: 100px;
   aspect-ratio: 1;
   border-radius: var(--radius);
   overflow: hidden;
+}
+.categories .bi-chevron-right {
+  position: absolute;
+  right: 0;
+  top: 40%;
 }
 
 .cards {
@@ -37,29 +33,24 @@
   padding: 5rem;
   gap: 5rem;
 }
-
-.card {
+.cards .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-
   max-width: 250px;
   aspect-ratio: 2/3;
-
   padding: 1rem;
   border: 1px solid var(--gray);
   border-radius: var(--radius);
 }
-
-.card img {
+.cards .card img {
   max-width: 250px;
   padding: 0 1rem;
   border-radius: var(--radius);
   overflow: hidden;
 }
-
-.card h4 {
+.cards .card h4 {
   color: var(--yellow);
 }
 
@@ -67,14 +58,13 @@
   display: flex;
   align-items: center;
   padding: 1rem 5rem;
-
   background-color: var(--yellow);
 }
-
 .footer-links nav {
   flex: 1;
 }
-
 .footer-links a {
   color: var(--black);
 }
+
+/*# sourceMappingURL=revenues.css.map */

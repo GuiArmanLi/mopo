@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SignUp</title>
-    <link rel="stylesheet" href="../css/sign.css" />
-    <link rel="stylesheet" href="../css/global.css" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="../dist/sign.css" />
+    <link rel="stylesheet" href="../dist/global.css" />
   </head>
 
   <body>
@@ -23,7 +23,6 @@
           <input type="checkbox" id="theme-toggle" />
           <span class="slider"></span>
         </label>
-
         <div class="language-selector">
           <button class="language-selected">
             <span>BR</span>
@@ -41,7 +40,7 @@
 
         <nav>
           <a class="icon" href="#" rel="internal"><i>Store</i></a>
-          <a class="icon" href="./profile.html" rel="internal"><i>Profile</i></a>
+          <a class="icon" href="./signin.html" rel="internal"><i>Profile</i></a>
         </nav>
       </section>
     </header>
@@ -49,17 +48,6 @@
     <main>
       <section>
         <form action="" method="post">
-          <label for="username">Username</label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            placeholder="Your name"
-            minlength="3"
-            maxlength="50"
-            autocomplete="username"
-            required
-          />
           <label for="email">Email</label>
           <input
             type="email"
@@ -82,24 +70,11 @@
             autocomplete="current-password"
             required
           />
-          <button class="yellow-button" type="submit">Sign Up</button>
-
-          <input type="checkbox" id="updates" />
-          <label for="updates"
-            >Receive occasional product updates and announcements</label
-          >
-
-          <p>
-            By creating an account, you agree to the
-            <a href="./policies.html">Terms of Service</a>. For more information
-            about MOPO’s privacy practices, see the
-            <a href="./policies.html">MOPO Privacy Statement</a>. We’ll
-            occasionally send you account-related emails.
-          </p>
+          <button class="yellow-button" type="submit">Sign In</button>
         </form>
-
         <nav>
-          <a href="./signin.html" rel="internal">SignIn</a>
+          <a href="./signup.html" rel="internal">SignUp</a>
+          <a href="#" rel="internal">Forget Password?</a>
         </nav>
       </section>
 
@@ -113,6 +88,6 @@
       <div><p>Copyright © All rights reserved.</p></div>
       <div><a href="./policies.html">Privacy Policies</a></div>
     </footer>
-    <script src="../js/theme.js"></script>
+    <script src="./theme.js"></script>
   </body>
 </html>
