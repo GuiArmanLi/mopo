@@ -1,0 +1,37 @@
+<main>
+  <section>
+    <form action="" method="post">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="seuemail@exemplo.com"
+        minlength="10"
+        maxlength="50"
+        autocomplete="email"
+        required
+      />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="*******"
+        minlength="8"
+        maxlength="20"
+        autocomplete="current-password"
+        required
+      />
+      <button class="yellow-button" type="submit">Sign In</button>
+    </form>
+    <nav>
+      <a routerLink="/signup" rel="internal">SignUp</a>
+      <a routerLink="/reset-password" rel="internal">Forget Password?</a>
+    </nav>
+  </section>
+
+  <picture>
+    <img src="../assets/fazendeira.png" alt="Imagem ilustrativa" />
+  </picture>
+</main>
