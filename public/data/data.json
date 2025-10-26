@@ -1,0 +1,94 @@
+{
+  "produtos": [
+    {
+      "id": "a1b2c3d4-e5f6-4a0b-81c2-3d4e5f6a7b8c",
+      "nome": "Tomate Italiano",
+      "tipo": "FRUTA",
+      "descricao": "Variedade alongada, ideal para molhos e saladas.",
+      "dataDeValidade": "2025-11-05",
+      "preco": 8.99,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b1c-82d3-4e5f6a7b8c9d",
+      "nome": "Couve-Flor",
+      "tipo": "LEGUME",
+      "descricao": "Cabeça branca e compacta, rica em vitaminas e fibras.",
+      "dataDeValidade": "2025-10-30",
+      "preco": 12.50,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4c2d-83e4-5f6a7b8c9d0e",
+      "nome": "Alface Americana",
+      "tipo": "VERDURA",
+      "descricao": "Folhas crocantes, muito usada em lanches e saladas.",
+      "dataDeValidade": "2025-10-25",
+      "preco": 4.25,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "d4e5f6a7-b8c9-4d3e-84f5-6a7b8c9d0e1f",
+      "nome": "Banana Prata",
+      "tipo": "FRUTA",
+      "descricao": "Doce e rica em potássio, ideal para consumo in natura.",
+      "dataDeValidade": "2025-10-29",
+      "preco": 6.80,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "e5f6a7b8-c9d0-4e4f-8506-7b8c9d0e1f2a",
+      "nome": "Batata Doce",
+      "tipo": "LEGUME",
+      "descricao": "Tubérculo com baixo índice glicêmico, ótimo para dietas.",
+      "dataDeValidade": "2025-12-15",
+      "preco": 5.15,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "f6a7b8c9-d0e1-4f5a-8617-8c9d0e1f2a3b",
+      "nome": "Brócolis Ninja",
+      "tipo": "VERDURA",
+      "descricao": "Cabeça de brócolis com talo mais fino e sabor suave.",
+      "dataDeValidade": "2025-10-27",
+      "preco": 15.90,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "a7b8c9d0-e1f2-4a6b-8728-9d0e1f2a3b4c",
+      "nome": "Pêra Asiática",
+      "tipo": "FRUTA",
+      "descricao": "Pêra redonda e crocante com casca amarelada.",
+      "dataDeValidade": "2025-11-10",
+      "preco": 18.30,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "b8c9d0e1-f2a3-4b7c-8839-0e1f2a3b4c5d",
+      "nome": "Abobrinha Italiana",
+      "tipo": "LEGUME",
+      "descricao": "Abobrinha de casca verde escura, ótima para grelhados.",
+      "dataDeValidade": "2025-11-03",
+      "preco": 7.45,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "c9d0e1f2-a3b4-4c8d-894a-1f2a3b4c5d6e",
+      "nome": "Espinafre",
+      "tipo": "VERDURA",
+      "descricao": "Rico em ferro e vitaminas, ideal para refogados.",
+      "dataDeValidade": "2025-10-26",
+      "preco": 6.70,
+      "imagem": "https://placehold.co/100"
+    },
+    {
+      "id": "d0e1f2a3-b4c5-4d9e-8a5b-2a3b4c5d6e7f",
+      "nome": "Manga Palmer",
+      "tipo": "FRUTA",
+      "descricao": "Manga grande, fibrosa e com sabor intenso.",
+      "dataDeValidade": "2025-11-01",
+      "preco": 9.50,
+      "imagem": "https://placehold.co/100"
+    }
+  ]
+}

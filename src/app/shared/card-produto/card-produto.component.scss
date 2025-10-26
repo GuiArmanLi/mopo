@@ -1,12 +1,20 @@
 .produto {
-  text-align: center;
-  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  aspect-ratio: 2/3;
+  padding: 1rem;
+  border: 1px solid var(--black);
+  border-radius: var(--radius);
   background-color: var(--cor-fundo-produto);
-  border-radius: 10px;
-  padding-top: 2%;
-  width: 16vw;
-  height: 300px;
-  font-size: var(--tamanho-fonte-texto);
+  text-align: center;
+
+  img,
+  div {
+    flex: 1;
+  }
 
   img {
     width: 100%;
@@ -14,13 +22,19 @@
     border-radius: var(--radius);
   }
 
-  .a {
-    background-color: var(--green);
-    color: var(--white);
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    border-radius: 5px;
-    margin-top: 2%;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a {
+      width: 90%;
+      margin: 0 auto;
+      padding: 1rem;
+      border-radius: var(--radius);
+
+      background-color: var(--green);
+      color: var(--white);
+    }
   }
 }

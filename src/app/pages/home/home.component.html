@@ -1,15 +1,14 @@
 <app-header-navigation></app-header-navigation>
-<div>
-  <img src="https://placehold.co/100" class="banner" alt="Imagem da home" />
+<div class="banner">
+  <img src="https://placehold.co/2400x900" alt="Imagem da home" />
 </div>
-<h2>MAIS VENDIDOS!</h2>
 
+<h2>MAIS VENDIDOS!</h2>
 <section class="produtos">
-  <app-card-produto></app-card-produto>
-  <app-card-produto></app-card-produto>
-  <app-card-produto></app-card-produto>
-  <app-card-produto></app-card-produto>
-  <app-card-produto></app-card-produto>
+  <app-card-produto
+    [produto]="produto"
+    *ngFor="let produto of produtos"
+  ></app-card-produto>
 </section>
 
 <app-footer-navigation></app-footer-navigation>
