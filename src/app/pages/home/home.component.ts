@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
-  imports: [HeaderNavigationComponent, CardProdutoComponent,CommonModule , FooterNavigationComponent],
+  imports: [HeaderNavigationComponent, CardProdutoComponent, CommonModule, FooterNavigationComponent],
   standalone: true,
 })
 export class HomeComponent implements OnInit {
@@ -30,9 +30,7 @@ export class HomeComponent implements OnInit {
         next: (dados) => { this.produtos = dados; },
         error: (erro) => {
           console.log("Erro ao buscar produtos: ", erro);
-          this.errorMessage = "Ocorreu um erro ao carregar a lista de alimentos.";
         },
-
         complete: () => {
           console.log("Requisicao de alimentos finalizada.");
         }

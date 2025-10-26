@@ -90,5 +90,107 @@
       "preco": 9.50,
       "imagem": "https://placehold.co/100"
     }
+  ],
+  "revenues": [
+    {
+      "id": 1,
+      "title": "Tiramisu Clássico Italiano",
+      "describe": "O famoso e delicioso doce italiano feito com café, queijo Mascarpone e biscoito champanhe.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 30,
+      "yield": 8,
+      "difficulty": 4,
+      "grade": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Frango Xadrez Chinês",
+      "describe": "Cubos de frango salteados com pimentões, cebola e amendoim, em um molho agridoce e saboroso.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 40,
+      "yield": 4,
+      "difficulty": 3,
+      "grade": 4.5
+    },
+    {
+      "id": 3,
+      "title": "Pão de Queijo Mineiro Tradicional",
+      "describe": "Receita autêntica de pão de queijo, crocante por fora e macio e elástico por dentro.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 60,
+      "yield": 25,
+      "difficulty": 2,
+      "grade": 4.9
+    },
+    {
+      "id": 4,
+      "title": "Salada Grega de Verão (Horiatiki)",
+      "describe": "Salada simples e refrescante com tomate, pepino, azeitonas, queijo feta e azeite de oliva.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 15,
+      "yield": 3,
+      "difficulty": 1,
+      "grade": 4.2
+    },
+    {
+      "id": 5,
+      "title": "Curry de Grão de Bico e Coco",
+      "describe": "Um curry indiano vegano e aromático, feito com grão de bico, leite de coco e especiarias.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 50,
+      "yield": 6,
+      "difficulty": 3,
+      "grade": 4.6
+    },
+    {
+      "id": 6,
+      "title": "Lasanha à Bolonhesa",
+      "describe": "A clássica lasanha em camadas, com carne moída, molho bechamel cremoso e muito queijo.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 90,
+      "yield": 12,
+      "difficulty": 5,
+      "grade": 4.7
+    },
+    {
+      "id": 7,
+      "title": "Brownie de Chocolate Intenso",
+      "describe": "O brownie perfeito: casquinha crocante por fora e um interior denso e ultra-chocolatudo.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 45,
+      "yield": 9,
+      "difficulty": 2,
+      "grade": 4.9
+    },
+    {
+      "id": 8,
+      "title": "Ceviche Peruano de Peixe Branco",
+      "describe": "Peixe fresco marinado no suco de limão (leite de tigre) com coentro, cebola roxa e pimenta.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 20,
+      "yield": 4,
+      "difficulty": 3,
+      "grade": 4.4
+    },
+    {
+      "id": 9,
+      "title": "Sopa Cremosa de Abóbora e Gengibre",
+      "describe": "Sopa aveludada, aquecedora e com um toque picante de gengibre fresco, ideal para o inverno.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 35,
+      "yield": 5,
+      "difficulty": 1,
+      "grade": 4.3
+    },
+    {
+      "id": 10,
+      "title": "Cupcakes de Baunilha",
+      "describe": "Bolinhos macios de baunilha com cobertura de buttercream leve e aerado.",
+      "image": "https://placehold.co/100",
+      "preparationTime": 55,
+      "yield": 12,
+      "difficulty": 4,
+      "grade": 4.1
+    }
   ]
 }
