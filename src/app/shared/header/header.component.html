@@ -1,34 +1,34 @@
 <header>
-  <h1>MOPO</h1>
-  <nav>
+  <h1><a routerLink="home" rel="internal">MOPO</a></h1>
+  <nav class="menu">
     <a class="item" routerLink="/home" rel="internal">Home</a>
     <a class="item" routerLink="/revenues" rel="internal">Revenues</a>
     <a class="item" routerLink="/about" rel="internal">About Us</a>
   </nav>
 
-  <section>
+  <section class="options">
     <label class="theme-switch">
       <input type="checkbox" id="theme-toggle" />
       <span class="slider"></span>
     </label>
     <div class="language-selector">
       <button class="language-selected">
-        <span>BR</span>
+        BR
         <span class="arrow-down"></span>
       </button>
       <div class="language-options">
-        <a href="#" class="language-option" data-lang="pt-br">
-          <span>PT-BR</span>
-        </a>
-        <a href="#" class="language-option" data-lang="en-us">
-          <span>EN-US</span>
-        </a>
+        <a href="#" class="language-option" data-lang="pt-br"> PT-BR </a>
+        <a href="#" class="language-option" data-lang="en-us"> EN-US </a>
       </div>
     </div>
 
     <nav>
-      <a class="icon" routerLink="/store" rel="internal"><i>Store</i></a>
-      <a class="icon" routerLink="/signin" rel="internal"><i>Profile</i></a>
+      <a class="icon" routerLink="/store" rel="internal"
+        ><i class="bi bi-shop"></i
+      ></a>
+      <a class="icon" routerLink="/signin" rel="internal"
+        ><i class="bi bi-person-fill"></i
+      ></a>
     </nav>
   </section>
 </header>
