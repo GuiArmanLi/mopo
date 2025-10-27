@@ -1,0 +1,36 @@
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+
+  .carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.5s ease;
+
+      .carousel-page {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+        padding: 2.5rem;
+      }
+    }
+  }
+
+  .navigation-button {
+    padding: 0 1rem;
+    border: none;
+    font-size: 2rem;
+    transition: opacity 0.3s;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .navigation-button:disabled {
+    cursor: not-allowed;
+  }
+}
