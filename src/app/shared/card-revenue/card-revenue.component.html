@@ -1,0 +1,24 @@
+<div class="revenue">
+  <img src="{{ revenue.image }}" alt="Imagem de {{ revenue.title }}" />
+  <div>
+    <h4>{{ revenue.title }}</h4>
+    <p>{{ revenue.describe }}</p>
+    <div class="grid">
+      <span class="item"
+        ><i class="bi bi-alarm-fill"></i> Tempo:
+        {{ revenue.preparationTime }}m</span
+      >
+      <span class="item"
+        ><i class="bi bi-fork-knife"></i> Porções: {{ revenue.yield }}</span
+      >
+      <span class="item"
+        ><i class="bi bi-bar-chart-fill"></i> Dificuldade:
+        {{ revenue.difficulty }}</span
+      >
+      <span class="item"
+        ><i class="bi bi-star-fill"></i> Nota: {{ revenue.grade }}</span
+      >
+    </div>
+    <a [routerLink]="['revenues', revenue.id]" rel="internal">Detalhes</a>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="category" *ngFor="let category of categories">
+  <img
+    class="imagem"
+    src="{{ category.imagem }}"
+    alt="Imagem de {{ category.nome }}"
+  />
+  <div>
+    <a routerLink="categories/{{ category.id }}" rel="internal">{{
+      category.nome
+    }}</a>
+  </div>
+</div>

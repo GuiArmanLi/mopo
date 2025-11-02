@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: var(--gap-size, 2.5rem);
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  width: 150px;
+  height: 200px;
+
+  text-align: center;
+
+  .imagem {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  box-sizing: border-box;
+}

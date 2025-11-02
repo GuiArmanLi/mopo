@@ -1,0 +1,58 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1; //Pode excluir
+
+  section,
+  picture {
+    flex: 1;
+  }
+
+  picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    padding: 1rem;
+    margin: 0 auto;
+
+    input,
+    button {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.25rem;
+      background-color: #d9d9d9;
+    }
+
+    input::placeholder {
+      padding-left: 1rem;
+    }
+  }
+
+  section nav {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+
+    a {
+      padding: 0 1rem;
+    }
+  }
+}
+
+label {
+  align-self: flex-start;
+}
+
+img {
+  width: 50%;
+}

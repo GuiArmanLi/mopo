@@ -1,0 +1,9 @@
+<div class="produto">
+  <img src="{{ produto.imagem }}" alt="Imagem de {{ produto.nome }}" />
+  <div>
+    <h4>{{ produto.nome }}</h4>
+    <p>{{ produto.descricao }}</p>
+    <p>{{ produto.preco }}</p>
+    <a [routerLink]="['produtos', produto.id]" rel="internal">Detalhes</a>
+  </div>
+</div>

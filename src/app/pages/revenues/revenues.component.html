@@ -1,0 +1,39 @@
+<section class="categories">
+  <span><i class="bi bi-chevron-left"></i></span>
+  <nav>
+    <div class="category">
+      <img src="https://placehold.co/100" alt="Imagem ilustrativa" />
+      <p>Category</p>
+    </div>
+
+    <div class="category">
+      <img src="https://placehold.co/100" alt="Imagem ilustrativa" />
+      <p>Category</p>
+    </div>
+
+    <div class="category">
+      <img src="https://placehold.co/100" alt="Imagem ilustrativa" />
+      <p>Category</p>
+    </div>
+
+    <div class="category">
+      <img src="https://placehold.co/100" alt="Imagem ilustrativa" />
+      <p>Category</p>
+    </div>
+
+    <div class="category">
+      <img src="https://placehold.co/100" alt="Imagem ilustrativa" />
+      <p>Category</p>
+    </div>
+  </nav>
+  <span><i class="bi bi-chevron-right"></i></span>
+</section>
+
+<section class="cards">
+  <app-card-revenue
+    [revenue]="revenue"
+    *ngFor="let revenue of revenues"
+  ></app-card-revenue>
+</section>
+
+<app-footer-navigation></app-footer-navigation>

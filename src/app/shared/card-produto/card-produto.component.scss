@@ -1,0 +1,40 @@
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  aspect-ratio: 2/3;
+  padding: 1rem;
+  border: 1px solid var(--black);
+  border-radius: var(--radius);
+  background-color: var(--cor-fundo-produto);
+  text-align: center;
+
+  img,
+  div {
+    flex: 1;
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: var(--radius);
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a {
+      width: 90%;
+      margin: 0 auto;
+      padding: 1rem;
+      border-radius: var(--radius);
+
+      background-color: var(--green);
+      color: var(--white);
+    }
+  }
+}

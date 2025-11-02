@@ -1,0 +1,34 @@
+<div class="carousel-container">
+  <button
+    class="navigation-button left"
+    (click)="prev()"
+    [disabled]="currentIndex === 0"
+  >
+    &#10094;
+  </button>
+
+  <div class="carousel-wrapper">
+    <div
+      class="carousel-track"
+      [style.transform]="getTransform()"
+      [style.width]="totalPages * 100 + '%'"
+    >
+      <div
+        *ngFor="let page of pagedCategories; let i = index"
+        class="carousel-page"
+        [style.--visible-count]="visibleCount"
+        [style.--gap-size]="'2.5rem'"
+      >
+        <app-category-recipes [categories]="page"></app-category-recipes>
+      </div>
+    </div>
+  </div>
+
+  <button
+    class="navigation-button right"
+    (click)="next()"
+    [disabled]="currentIndex >= totalPages - 1"
+  >
+    &#10095;
+  </button>
+</div>
